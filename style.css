@@ -6,15 +6,18 @@ body {
 .piano {
     background-color: rgb(102, 102, 102);
     position: fixed;
-    top: 20%;
+    top: 45%;
     right: 10%;
     height: 20em;
+    cursor: pointer;
 }
+
+
 .white-key {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(15, 1fr);
     grid-auto-rows: 20em;
-    width: 30em;
+    width: 40em;
     background-color:rgb(204, 204, 204);
     border: 1px solid black;
 }
@@ -26,33 +29,45 @@ body {
     position: relative;
     top: -20em;
     height: 12em;
-    width: 30em;
+    width: 40em;
 }
 .black-key div {
     background-color: black;
     position: absolute;
     height: 12em;
-    width: 3em;
+    width: 2em;
     border: 1px solid black;
 }
-.piano {
-    cursor: pointer;
-}
 
-#db {
-    left: 2.2em;
+#db0 {
+    left: 1.6em;
 }
-#eb {
-    left: 6em;
+#eb0 {
+    left: 4.3em;
 }
-#gb {
-    left: 13.4em;
+#gb0 {
+    left: 9.6em;
 }
-#ab {
-    left: 17.3em;
+#ab0 {
+    left: 12.3em;
 }
-#bb {
-    left: 21em;
+#bb0 {
+    left:15em;
+}
+#db1 {
+    left: 20.3em;
+}
+#eb1 {
+    left: 23em;
+}
+#gb1 {
+    left: 28.3em;
+}
+#ab1 {
+    left: 30.9em;
+}
+#bb1 {
+    left: 33.6em;
 }
 
 .black-key div:active, .white-key div:active {
