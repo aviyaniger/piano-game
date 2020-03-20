@@ -55,6 +55,6 @@ body {
     left: 21em;
 }
 
-.black-key div:hover, .white-key div:hover {
-    background-color: rgb(21, 104, 0);
+.black-key div:active, .white-key div:active {
+    background-color: rgb(146, 0, 0);
 }
